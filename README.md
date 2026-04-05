@@ -56,6 +56,11 @@ Every 1 second:
 
 ---
 
+## Circuit Diagram
+![STM32 Blue Pill Pulse Counter Wiring](BluePill_2Input_2UART.png)
+
+---
+
 ### UART3 Connection (PB10 / PB11)
 | Blue Pill | USB-TTL |
 |----------|---------|
@@ -93,19 +98,17 @@ Install PlatformIO extension in VS Code.
 
 ### 2. Clone Project
 
-  git clone https://github.com/yourusername/yourrepo.git
-
-  cd yourrepo
+    git clone https://github.com/yourusername/yourrepo.git
+    cd yourrepo
 
 ### 3. Build and Upload
 
-  pio run
-
-  pio run --target upload
+    pio run
+    pio run --target upload
 
 Serial Monitor / UART2 Monitor
 
-  pio device monitor -b 115200
+    pio device monitor -b 115200
 
 Or use any serial terminal software (Putty, TeraTerm, Arduino Serial Monitor).
 
