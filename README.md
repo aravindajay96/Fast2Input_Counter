@@ -93,6 +93,7 @@ Install PlatformIO extension in VS Code.
 
 ### 2. Clone Project
 git clone https://github.com/yourusername/yourrepo.git
+
 cd yourrepo
 
 ### 3. Build and Upload
@@ -104,7 +105,8 @@ pio device monitor -b 115200
 
 Or use any serial terminal software (Putty, TeraTerm, Arduino Serial Monitor).
 
-Pin Summary
+## Pin Summary
+
 Function	STM32 Pin
 Input 1 (Pulse Count)	PA10
 Input 2 (Pulse Count)	PB6
@@ -112,14 +114,8 @@ UART2 TX	PA2
 UART2 RX	PA3
 UART3 TX	PB10
 UART3 RX	PB11
-License
+
+## License
 
 This project is open-source. Use and modify freely.
 
-
----
-
-If you want, I can also generate:
-- `platformio.ini`
-- project folder structure
-- GitHub repo template files (`.gitignore`, `LICENSE`)
