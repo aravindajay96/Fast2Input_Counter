@@ -110,8 +110,9 @@ Serial Monitor / UART2 Monitor
 
     pio device monitor -b 115200
 
-Or use any serial terminal software (Putty, TeraTerm, Arduino Serial Monitor).
+Or use any serial terminal software (Putty, TeraTerm, Arduino Serial Monitor)
 
+---
 ## Pin Summary
 
 Function	STM32 Pin
@@ -127,6 +128,8 @@ UART2 RX	PA3
 UART3 TX	PB10
 
 UART3 RX	PB11
+
+---
 
 ## License
 
