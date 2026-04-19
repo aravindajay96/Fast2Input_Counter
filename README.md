@@ -117,17 +117,17 @@ Or use any serial terminal software (Putty, TeraTerm, Arduino Serial Monitor)
 
 Function	STM32 Pin
 
-Input 1 (Pulse Count)	PA10
+-Input 1 (Pulse Count)	PA10
 
-Input 2 (Pulse Count)	PB6
+-Input 2 (Pulse Count)	PB6
 
-UART2 TX	PA2
+-UART2 TX	PA2
 
-UART2 RX	PA3
+-UART2 RX	PA3
 
-UART3 TX	PB10
+-UART3 TX	PB10
 
-UART3 RX	PB11
+-UART3 RX	PB11
 
 ---
 
